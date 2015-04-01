@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>TWITTERDESIGNER_FOOTERTEXT</key>
+	   <string>Он сделал прекрасную икону EventOnStart.</string>
+
+	<key>TWITTERIDEA_FOOTERTEXT</key>
+	   <string>Он дал мне идею превратить свою tweak VibrateOnStart в EventOnStart.</string>
+
+	<key>TWITTERBETATESTER_FOOTERTEXT</key>
+	   <string>Мой личный бета-тестер :)</string>
+
+	<key>TWITTERHELP1_FOOTERTEXT</key>
+	   <string>Он научил меня, как составить tweak в течение 64 бит устройстве.</string>
+
+	<key>TWITTERHELP2_FOOTERTEXT</key>
+	   <string>Он спросил меня, может ли он отправить мне некоторых полезных Код для моего подстройке</string>
+
+	<key>REDDITJAILBREAKDEVELOPERS_FOOTERTEXT</key>
+	   <string>Некоторые классные разработчики этого subreddit помогли мне тонну, чтобы сделать этот tweak. (Это моя первая)</string>
+
+	<key>REDDITJAILBREAK_FOOTERTEXT</key>
+	   <string>Я хочу сказать, большой 'Спасибо!' для каждого пользователя /r/jailbreak. Это subreddit является действительно здорово джейлбрейк сообщество!</string>
+
+	<key>TITLE_CREDITSPAGE</key>
+	   <string>Кредиты</string>
+
+	<key>TRANSLATORS</key>
+		<string>Переводчики</string>
+</dict>
+</plist>

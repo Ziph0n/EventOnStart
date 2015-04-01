@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ABOUT</key>
+	<string>Over </string>
+	<key>CREATEDBYME</key>
+	<string>Gemaakt door Ziph0n</string>
+	<key>CREDITS</key>
+	<string>Credits</string>
+	<key>DESCRIPTION</key>
+	<string>Vang een gebeurtenis aan bij het opstarten.</string>
+	<key>DISMISS</key>
+	<string>Zend weg</string>
+	<key>DONATE</key>
+	<string>Doneer</string>
+	<key>DONATE_FOOTERTEXT</key>
+	<string>Als je mijn werk waardeert, druk alsjeblieft op deze knop om een donatie aan mij te sturen ;)</string>
+	<key>EMAIL</key>
+	<string>Emailondersteuning</string>
+	<key>ENABLED</key>
+	<string>Ingeschakeld </string>
+	<key>FLASH</key>
+	<string>Zaklamp</string>
+	<key>FLASH_FOOTERTEXT</key>
+	<string>Laat je iPhone's cameraflits knipperen bij het opstarten.</string>
+	<key>GITHUB</key>
+	<string>Bekijk Bron op GitHub</string>
+	<key>OPTIONS</key>
+	<string>Opties</string>
+	<key>PREVIEW</key>
+	<string>Preview</string>
+	<key>REDDIT</key>
+	<string>Vind me op Reddit (/u/Ziph0n)</string>
+	<key>SHARE</key>
+	<string>Ik gebruik #EventOnStart, een geweldige Cydia tweak gemaakt door Ziphon. Download het nu!</string>
+	<key>SOUND</key>
+	<string>Geluid</string>
+	<key>SOUNDLIST</key>
+	<string>Geluidlijst</string>
+	<key>SOUND_FOOTERTEXT</key>
+	<string>Speelt een geluid af bij het opstarten. Het geluid kan gekozen worden in het 'Geluidlijst' menu.</string>
+	<key>TWITTER</key>
+	<string>Volg Me op Twitter</string>
+	<key>VIBRATION</key>
+	<string>Trillen</string>
+	<key>VIBRATION_FOOTERTEXT</key>
+	<string>Laat je iPhone trillen bij het opstarten.</string>
+	<key>WELCOME</key>
+	<string>Welkomstbericht</string>
+	<key>WELCOME_FOOTERTEXT</key>
+	<string>Dit geeft een pop-up bericht. Je kan een aangepaste tekenreeks invoeren in het 'welkomsttekst' menu.</string>
+	<key>WELCOME_MENU</key>
+	<string>Welkomsttekst</string>
+</dict>
+</plist>

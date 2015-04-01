@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>REDDITJAILBREAKDEVELOPERS_FOOTERTEXT</key>
+	<string>Bu subreddit'teki bazı geliştiriciler bu tweak'i yapmamda bana fazlaca yardım ettiler. (Bu ilk seferim.)</string>
+	<key>REDDITJAILBREAK_FOOTERTEXT</key>
+	<string>/r/jailbreak'in her bir üyesine kocaman bir "Teşekkür ederim!" demek istiyorum. Bu subreddit gerçekten harika bir topluluk.</string>
+	<key>TITLE_CREDITSPAGE</key>
+	<string>Krediler</string>
+	<key>TRANSLATORS</key>
+	<string>Çevirmenler</string>
+	<key>TWITTERBETATESTER_FOOTERTEXT</key>
+	<string>Gizli beta testçim :)</string>
+	<key>TWITTERDESIGNER_FOOTERTEXT</key>
+	<string>EventOnStart için güzel bir simge tasarladı.</string>
+	<key>TWITTERHELP1_FOOTERTEXT</key>
+	<string>O bana bir tweak'i nasıl 64 bit cihazlarla uyumlu hale getirebileceğimi ögretti.</string>
+	<key>TWITTERHELP2_FOOTERTEXT</key>
+	<string>O bana tweak'im için bazı yararlı kodlar gönderebileceğini söyledi.</string>
+	<key>TWITTERIDEA_FOOTERTEXT</key>
+	<string>O bana VibrateOnStart tweak'imi EventOnStart'a dönüştürme fikrini verdi.</string>
+</dict>
+</plist>

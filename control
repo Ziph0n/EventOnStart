@@ -1,0 +1,9 @@
+Package: com.ziph0n.vibrateonstart
+Name: EventOnStart
+Depends: mobilesubstrate
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: Initiate an event on startup!
+Maintainer: Ziph0n
+Author: Ziph0n
+Section: Tweaks

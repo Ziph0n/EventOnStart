@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ENABLED</key>
+	   <string>Включено</string>
+
+	<key>VIBRATION_FOOTERTEXT</key>
+	   <string>Сделайте вибрацию на включении iPhone.</string>
+
+	<key>VIBRATION</key>
+	   <string>Вибрация</string>
+
+	<key>FLASH_FOOTERTEXT</key>
+	   <string>Сделайте вспышку на включении iPhone.</string>
+
+	<key>FLASH</key>
+	   <string>Вспышка</string>
+
+	<key>SOUND_FOOTERTEXT</key>
+	   <string>Проигрывание музыки на включении. Музыка может быть выбрана в меню звуков.</string>
+
+	<key>SOUND</key>
+	   <string>Звуки</string>
+
+	<key>SOUNDLIST</key>
+	   <string>Звуковой лист</string>
+
+	<key>WELCOME_FOOTERTEXT</key>
+	   <string>Это покажет всплывающее сообщение. Вы можете ввести пользовательской строки в меню "Приветственный текст".</string>
+
+	<key>WELCOME</key>
+	   <string>Приветственное Cообщение</string>
+
+	<key>WELCOME_MENU</key>
+	   <string>Приветствие</string>
+
+	<key>GITHUB</key>
+	   <string>Посмотреть исходный код на GitHub</string>
+
+	<key>TWITTER</key>
+	   <string>Следите за мной на Twitter </string>
+
+	<key>EMAIL</key>
+	   <string>Поддержка по почте</string>
+
+	<key>REDDIT</key>
+	   <string>Находите меня на Reddit (/u/Ziph0n)</string>
+
+	<key>DONATE_FOOTERTEXT</key>
+	   <string>Если Вы цените мою работу, то используйте кнопку для того, чтобы пожертвовать для меня ;)</string>
+
+	<key>DONATE</key>
+	   <string>Пожертвование</string>
+
+	<key>CREDITS</key>
+	   <string>Кредиты</string>
+
+	<key>CREATEDBYME</key>
+	   <string>Сделано Ziph0n</string>
+
+	<key>DESCRIPTION</key>
+	   <string>Инициировать событие при включении!</string>
+
+	<key>OPTIONS</key>
+	   <string>Опции</string>
+
+	<key>ABOUT</key>
+	   <string>Про это</string>
+
+	<key>PREVIEW</key>
+	   <string>Предварительный просмотр</string>
+
+	<key>SHARE</key>
+	   <string>Я использую #EventOnStart, самый лучший tweak в Cydia сделано Ziph0n. Скачивайте его прямо сейчас!</string>
+	   
+	<key>DISMISS</key>
+	   <string>Отказать</string>
+</dict>
+</plist>

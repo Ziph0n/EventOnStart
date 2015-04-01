@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ENABLED</key>
+	   <string>Activé</string>
+
+	<key>VIBRATION_FOOTERTEXT</key>
+	   <string>Une fois activée, cette option vous permettra de faire vibrer votre appareil au démarrage.</string>
+
+	<key>VIBRATION</key>
+	   <string>Vibration</string>
+
+	<key>FLASH_FOOTERTEXT</key>
+	   <string>Une fois activée, cette option vous permettra de faire flasher votre appareil au démarrage.</string>
+
+	<key>FLASH</key>
+	   <string>Flash</string>
+
+	<key>SOUND_FOOTERTEXT</key>
+	   <string>Une fois activée, cette option vous permettra de jouer un son au démarrage. Vous pouvez choisir votre son dans le menu 'Liste de sons'.</string>
+
+	<key>SOUND</key>
+	   <string>Son</string>
+
+	<key>SOUNDLIST</key>
+	   <string>Liste de sons</string>
+
+	<key>WELCOME_FOOTERTEXT</key>
+	   <string>Une fois activée, cette option vous permettra d'afficher un message de type pop-up. Vous pouvez entrer votre texte dans le menu 'Texte de Bienvenue'.</string>
+
+	<key>WELCOME</key>
+	   <string>Message de Bienvenue</string>
+
+	<key>WELCOME_MENU</key>
+	   <string>Texte de Bienvenue</string>
+
+	<key>GITHUB</key>
+	   <string>Code Source sur GitHub</string>
+
+	<key>TWITTER</key>
+	   <string>Suivez-moi sur Twitter</string>
+
+	<key>EMAIL</key>
+	   <string>Assistance par E-mail</string>
+
+	<key>REDDIT</key>
+	   <string>Reddit (/u/Ziph0n)</string>
+
+	<key>DONATE_FOOTERTEXT</key>
+	   <string>Si vous appréciez mon tweak, vous pouvez me faire un don via PayPal ;)</string>
+
+	<key>DONATE</key>
+	   <string>Faire un Don</string>
+
+	<key>CREDITS</key>
+	   <string>Crédits</string>
+
+	<key>CREATEDBYME</key>
+	   <string>Conçu par Ziph0n</string>
+
+	<key>DESCRIPTION</key>
+	   <string>Crée des évenements au démarrage !</string>
+
+	<key>OPTIONS</key>
+	   <string>Options</string>
+
+	<key>ABOUT</key>
+	   <string>A Propos</string>
+
+	<key>PREVIEW</key>
+	   <string>Prévisualiser</string>
+
+	<key>SHARE</key>
+	   <string>#EventOnStart est un des meilleurs tweak Cydia ! Téléchargez-le maintenant !</string>
+
+	<key>DISMISS</key>
+	   <string>OK</string>
+</dict>
+</plist>

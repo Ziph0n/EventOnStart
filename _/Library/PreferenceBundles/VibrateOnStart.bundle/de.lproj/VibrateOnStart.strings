@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ABOUT</key>
+	<string>Über</string>
+	<key>CREATEDBYME</key>
+	<string>Erstellt bei Ziph0n</string>
+	<key>CREDITS</key>
+	<string>Credits</string>
+	<key>DESCRIPTION</key>
+	<string>Führe einen Event beim Start aus!</string>
+	<key>DISMISS</key>
+	<string>Ausblenden</string>
+	<key>DONATE</key>
+	<string>Spenden</string>
+	<key>DONATE_FOOTERTEXT</key>
+	<string>Wenn du meine Arbeit schätzst, kannst du ja der Spende Knopf drücken ;)</string>
+	<key>EMAIL</key>
+	<string>Email Support</string>
+	<key>ENABLED</key>
+	<string>Aktiviert</string>
+	<key>FLASH</key>
+	<string>Licht</string>
+	<key>FLASH_FOOTERTEXT</key>
+	<string>Aktiviert ein Blinken der integrierten iPhone Lampe beim Start.</string>
+	<key>GITHUB</key>
+	<string>Schau dir die Quellen auf Github an</string>
+	<key>OPTIONS</key>
+	<string>Optionen</string>
+	<key>PREVIEW</key>
+	<string>Vorschau</string>
+	<key>REDDIT</key>
+	<string>Finde mich auf Reddit (/u/Ziph0n)</string>
+	<key>SHARE</key>
+	<string>I'm using #EventOnStart, an awesome Cydia tweak by Ziph0n. Get it now!</string>
+	<key>SOUND</key>
+	<string>Sound</string>
+	<key>SOUNDLIST</key>
+	<string>Sound Liste</string>
+	<key>SOUND_FOOTERTEXT</key>
+	<string>Spielt einen Sound beim Start. Der Sound kann im 'Sound Liste' Menü ausgewählt werden.</string>
+	<key>TWITTER</key>
+	<string>Folge mir auf Twitter</string>
+	<key>VIBRATION</key>
+	<string>Vibration</string>
+	<key>VIBRATION_FOOTERTEXT</key>
+	<string>Fordert eine Vibration beim Start</string>
+	<key>WELCOME</key>
+	<string>Willkommens Nachricht</string>
+	<key>WELCOME_FOOTERTEXT</key>
+	<string>Dies wird eine Pop-Up Nachricht anzeigen. Du kannst einen eigenen Text im 'Willkommens Text' Menü eintippen</string>
+	<key>WELCOME_MENU</key>
+	<string>Willkommens Text</string>
+</dict>
+</plist>

@@ -1,0 +1,115 @@
+#import <Preferences/Preferences.h>
+#import <SettingsKit/SKListControllerProtocol.h>
+#import <SettingsKit/SKTintedListController.h>
+#import <SettingsKit/SKStandardController.h>
+#import <SettingsKit/SKSharedHelper.h>
+
+
+@interface VibrateOnStartListController: PSListController {
+}
+@end
+
+@implementation VibrateOnStartListController
+- (id)specifiers {
+if(_specifiers == nil) {
+_specifiers = [[self loadSpecifiersFromPlistName:@"VibrateOnStart" target:self] retain];
+}
+return _specifiers;
+}
+
+- (void)donation {
+[[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"https://www.paypal.com/notyet"]];
+}
+
+-(NSString*) customTitle { return @""; }
+-(NSString*) shareMessage { return @"I'm using #EventOnStart by @Ziph0n and I'm loving it!"; 
+}
+- (void)twitter {
+if ([[UIApplication sharedApplication] canOpenURL:[NSURL URLWithString:@"twitter://user?screen_name=Ziph0n"]]) {
+[[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"twitter://user?screen_name=Ziph0n"]];
+} else {
+[[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"https://twitter.com/Ziph0n"]];
+}
+}
+
+- (void)sourceOnGithub {
+[[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"https://github.com/notyet"]];
+}
+
+- (void)reddit {
+[[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://www.reddit.com/user/Ziph0n/"]];
+}
+
+-(void) sendEmail {
+[[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"mailto:flofoot45@gmail.com?subject=VibrateOnStart"]];
+}
+
+@end
+
+@protocol PreferencesTableCustomView
+-(id)initWithSpecifier:(id)arg1;
+@optional
+-(CGFloat)preferredHeightForWidth:(CGFloat)arg1;
+@end
+
+@interface PSTableCell (EventOnStart)
+-(id)initWithStyle:(int)style reuseIdentifier:(id)arg2;
+@end
+
+@interface EventOnStartCustomCell : PSTableCell <PreferencesTableCustomView> {
+
+UILabel *label;
+UILabel *underLabel;
+UILabel *otherLabel;
+}
+@end
+
+@implementation EventOnStartCustomCell
+-(id)initWithSpecifier:(id)specifier {
+
+self = [super initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"Cell"];
+if (self) {
+
+CGRect frame = CGRectMake(0, -15, [[UIScreen mainScreen] bounds].size.width, 60);
+CGRect underFrame = CGRectMake(0, 20, [[UIScreen mainScreen] bounds].size.width, 60);
+CGRect otherFrame = CGRectMake(0, 40, [[UIScreen mainScreen] bounds].size.width, 60);
+
+label = [[UILabel alloc] initWithFrame:frame];
+[label setNumberOfLines:1];
+label.font = [UIFont fontWithName:@"HelveticaNeue-UltraLight" size:48];
+[label setText:@"EventOnStart"];
+[label setBackgroundColor:[UIColor clearColor]];
+label.textColor = [UIColor colorWithRed:1 green:0.627 blue:0.192 alpha:1.0];
+label.textAlignment = NSTextAlignmentCenter;
+
+underLabel = [[UILabel alloc] initWithFrame:underFrame];
+[underLabel setNumberOfLines:1];
+underLabel.font = [UIFont fontWithName:@"HelveticaNeue-Light" size:14];
+[underLabel setText:@"Create event at startup!"];
+[underLabel setBackgroundColor:[UIColor clearColor]];
+underLabel.textColor = [UIColor grayColor];
+underLabel.textAlignment = NSTextAlignmentCenter;
+
+otherLabel = [[UILabel alloc] initWithFrame:otherFrame];
+[otherLabel setNumberOfLines:1];
+otherLabel.font = [UIFont fontWithName:@"HelveticaNeue-Light" size:14];
+[otherLabel setText:@"Created by Ziph0n"];
+[otherLabel setBackgroundColor:[UIColor clearColor]];
+otherLabel.textColor = [UIColor grayColor];
+otherLabel.textAlignment = NSTextAlignmentCenter;	
+
+[self addSubview:label];
+[self addSubview:underLabel];
+[self addSubview:otherLabel];
+}
+return self;
+}
+
+-(CGFloat)preferredHeightForWidth:(CGFloat)arg1 {
+
+CGFloat prefHeight = 90.0;
+return prefHeight;
+}
+@end
+
+// vim:ft=objc

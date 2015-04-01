@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ENABLED</key>
+	   <string>Enabled</string>
+
+	<key>VIBRATION_FOOTERTEXT</key>
+	   <string>Makes your iPhone vibrate on startup.</string>
+
+	<key>VIBRATION</key>
+	   <string>Vibration</string>
+
+	<key>FLASH_FOOTERTEXT</key>
+	   <string>Makes your iPhone's camera flash blink on startup.</string>
+
+	<key>FLASH</key>
+	   <string>Flashlight</string>
+
+	<key>SOUND_FOOTERTEXT</key>
+	   <string>Plays a sound on startup. The sound can be chosen in the 'Sound List' menu.</string>
+
+	<key>SOUND</key>
+	   <string>Sound</string>
+
+	<key>SOUNDLIST</key>
+	   <string>Sound List</string>
+
+	<key>WELCOME_FOOTERTEXT</key>
+	   <string>This will show a pop-up message. You can enter a custom string in the 'Welcome Text' menu.</string>
+
+	<key>WELCOME</key>
+	   <string>Welcome Message</string>
+
+	<key>WELCOME_MENU</key>
+	   <string>Welcome Text</string>
+
+	<key>GITHUB</key>
+	   <string>View Source on GitHub</string>
+
+	<key>TWITTER</key>
+	   <string>Follow Me on Twitter</string>
+
+	<key>EMAIL</key>
+	   <string>Email Support</string>
+
+	<key>REDDIT</key>
+	   <string>Find me on Reddit (/u/Ziph0n)</string>
+
+	<key>DONATE_FOOTERTEXT</key>
+	   <string>If you appreciate my work, please use this button to donate to me ;)</string>
+
+	<key>DONATE</key>
+	   <string>Donate</string>
+
+	<key>CREDITS</key>
+	   <string>Credits</string>
+
+	<key>CREATEDBYME</key>
+	   <string>Created by Ziph0n</string>
+
+	<key>DESCRIPTION</key>
+	   <string>Intiate an event on startup!</string>
+
+	<key>OPTIONS</key>
+	   <string>Options</string>
+
+	<key>ABOUT</key>
+	   <string>About</string>
+
+	<key>PREVIEW</key>
+	   <string>Preview</string>
+
+	<key>SHARE</key>
+	   <string>I'm using #EventOnStart, an awesome Cydia tweak by Ziph0n. Get it now!</string>
+	   
+	<key>DISMISS</key>
+	   <string>Dismiss</string>
+</dict>
+</plist>

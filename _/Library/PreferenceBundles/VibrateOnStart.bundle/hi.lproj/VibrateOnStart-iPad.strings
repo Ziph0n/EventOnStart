@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ENABLED</key>
+	   <string>सक्षम किया गया</string>
+
+	<key>VIBRATION_FOOTERTEXT</key>
+	   <string>आपके iPhone पर स्टार्टअप कांपना बनाता है।</string>
+
+	<key>VIBRATION</key>
+	   <string>कंपन</string>
+
+	<key>FLASH_FOOTERTEXT</key>
+	   <string>अपने iPhone कैमरा फ़्लैश पलक स्टार्टअप पर बनाता है।</string>
+
+	<key>FLASH</key>
+	   <string>टॉर्च</string>
+
+	<key>SOUND_FOOTERTEXT</key>
+	   <string>स्टार्टअप पर एक ध्वनि निभाता है। ध्वनि को 'ध्वनि सूची' मेनू में चुना जा सकता है।</string>
+
+	<key>SOUND</key>
+	   <string>ध्वनि</string>
+
+	<key>SOUNDLIST</key>
+	   <string>ध्वनि सूची</string>
+
+	<key>WELCOME_FOOTERTEXT</key>
+	   <string>यह एक पॉप-अप संदेश दिखाएगा। आप एक कस्टम स्ट्रिंग का 'स्वागत ' पाठ मेनू में दर्ज कर सकते हैं।</string>
+
+	<key>WELCOME</key>
+	   <string>स्वागत संदेश</string>
+
+	<key>WELCOME_MENU</key>
+	   <string>स्वागत है पाठ</string>
+
+	<key>GITHUB</key>
+	   <string>GitHub पर स्रोत देखें</string>
+
+	<key>TWITTER</key>
+	   <string>मेरे चहचहाना पर का पालन करें</string>
+
+	<key>EMAIL</key>
+	   <string>ईमेल समर्थन</string>
+
+	<key>REDDIT</key>
+	   <string>Find me on Reddit (/u/Ziph0n)</string>
+
+	<key>DONATE_FOOTERTEXT</key>
+	   <string>यदि आप मेरे काम की सराहना करते हैं, तो कृपया दान करने के लिए इस बटन उपयोग</string>
+
+	<key>DONATE</key>
+	   <string>दान</string>
+
+	<key>CREDITS</key>
+	   <string>क्रेडिट्स</string>
+
+	<key>CREATEDBYME</key>
+	   <string>Ziph0n द्वारा बनाई गई</string>
+
+	<key>DESCRIPTION</key>
+	   <string>स्टार्टअप पर कोई ईवेंट प्रारंभ!</string>
+
+	<key>OPTIONS</key>
+	   <string>विकल्प</string>
+
+	<key>ABOUT</key>
+	   <string>अबाउट</string>
+
+	<key>PREVIEW</key>
+	   <string>पूर्वावलोकन</string>
+
+	<key>SHARE</key>
+	   <string>Get it now!मैं उपयोग कर रहा हूँ #EventOnStart, अब यह हो जाओ</string>
+	   
+	<key>DISMISS</key>
+	   <string>खारिज</string>
+</dict>
+</plist>

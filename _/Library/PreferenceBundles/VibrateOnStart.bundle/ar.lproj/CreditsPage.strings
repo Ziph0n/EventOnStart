@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>REDDITJAILBREAKDEVELOPERS_FOOTERTEXT</key>
+	<string>بعض المطورين الرائعين في الـReddit هم من شجعوني ببرمجة هذا التويك والذي هو أول تويك من برمجتي.</string>
+	<key>REDDITJAILBREAK_FOOTERTEXT</key>
+	<string>اريد ان أشكر كل شخص في /r/Jailbreak لأنهُ مجتمع رائع للجيلبريك.</string>
+	<key>TITLE_CREDITSPAGE</key>
+	<string>الشُكر</string>
+	<key>TRANSLATORS</key>
+	<string>المترجمين</string>
+	<key>TWITTERBETATESTER_FOOTERTEXT</key>
+	<string>هو الذي شارك بتجربة هذا التويك.</string>
+	<key>TWITTERDESIGNER_FOOTERTEXT</key>
+	<string>هو من صمم الأيقونة الجميلة للتويك.</string>
+	<key>TWITTERHELP1_FOOTERTEXT</key>
+	<string>هو من علمني تحويل التويك وجعلهُ يدعم أجهزة الـ64 بت.</string>
+	<key>TWITTERHELP2_FOOTERTEXT</key>
+	<string>هو من سألني إذا كان يستطيع أن يرسل لي بعض الأكواد لمساعدتي ببرمجة التويك.</string>
+	<key>TWITTERIDEA_FOOTERTEXT</key>
+	<string>هو من أعطاني الفكرة لتحويل تويك (VibrateOnStart) القديم إلى (EventOnStart).</string>
+</dict>
+</plist>

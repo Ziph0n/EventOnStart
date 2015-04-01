@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ENABLED</key>
+	   <string>Päällä</string>
+
+	<key>VIBRATION_FOOTERTEXT</key>
+	   <string>Tekee iPhonesi värisemään käynnistyessä.</string>
+
+	<key>VIBRATION</key>
+	   <string>Värinä</string>
+
+	<key>FLASH_FOOTERTEXT</key>
+	   <string>iPhonesi kamera välähtää käynnistyessä.</string>
+
+	<key>FLASH</key>
+	   <string>Taskulamppu</string>
+
+	<key>SOUND_FOOTERTEXT</key>
+	   <string>Toistaa äänen käynnistyessä. Ääni on valittavissa 'sound' menusta.</string>
+
+	<key>SOUND</key>
+	   <string>Ääni</string>
+
+	<key>SOUNDLIST</key>
+	   <string>Äänilista</string>
+
+	<key>WELCOME_FOOTERTEXT</key>
+	   <string>Tämä näyttää pop-up viestin. Voit asettaa mukautetun tekstin 'Tervetuloa Teksti' menussa.</string>
+
+	<key>WELCOME</key>
+	   <string>Tervetuloa Teksti</string>
+
+	<key>WELCOME_MENU</key>
+	   <string>Tervetuloa Teksti</string>
+
+	<key>GITHUB</key>
+	   <string>Katso lähde GitHubissa</string>
+
+	<key>TWITTER</key>
+	   <string>Seuraa minua Twitterissä</string>
+
+	<key>EMAIL</key>
+	   <string>Sähköpostituki</string>
+
+	<key>REDDIT</key>
+	   <string>Löydä minut Redditissä: (/u/Ziph0n)</string>
+
+	<key>DONATE_FOOTERTEXT</key>
+	   <string>Jos arvostat työtäni, paina tätä nappia lahjoittaaksesi minulle rahaa. ;)</string>
+
+	<key>DONATE</key>
+	   <string>Lahjoitus</string>
+
+	<key>CREDITS</key>
+	   <string>Kiitokset</string>
+
+	<key>CREATEDBYME</key>
+	   <string>Luoja: Ziph0n</string>
+
+	<key>DESCRIPTION</key>
+	   <string>Aloita tapahtuma puhelimesi käynnistyessä!</string>
+
+	<key>OPTIONS</key>
+	   <string>Asetukset</string>
+
+	<key>ABOUT</key>
+	   <string>Tietoa</string>
+
+	<key>PREVIEW</key>
+	   <string>Esikatselu</string>
+
+	<key>SHARE</key>
+	   <string>Käytän #EventOnStart 'ia, mahtavaa Cydia tweakkia. Hanki se nyt. By: Ziph0n.</string>
+	   
+	<key>DISMISS</key>
+	   <string>Unohda</string>
+</dict>
+</plist>

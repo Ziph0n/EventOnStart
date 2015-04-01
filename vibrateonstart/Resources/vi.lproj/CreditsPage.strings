@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>TWITTERDESIGNER_FOOTERTEXT</key>
+	   <string>Anh ấy đã giúp tôi tạo một icon tuyệt đẹp cho EventOnStart.</string>
+
+	<key>TWITTERIDEA_FOOTERTEXT</key>
+	   <string>Anh ấy cho tôi ý tưởng để biến đổi VibrateOnStart thành EventOnStart.</string>
+
+	<key>TWITTERBETATESTER_FOOTERTEXT</key>
+	   <string>Tester bản beta của tôi :)</string>
+
+	<key>TWITTERHELP1_FOOTERTEXT</key>
+	   <string>Anh ấy dạy tôi cách biên dịch tweak cho thiết bị 64 bit.</string>
+
+	<key>TWITTERHELP2_FOOTERTEXT</key>
+	   <string>Anh ấy đã đề nghị gửi cho tôi một số code hữu ích.</string>
+
+	<key>REDDITJAILBREAKDEVELOPERS_FOOTERTEXT</key>
+	   <string>Một số nhà phát triển tuyệt vời trên subreddit đã giúp tôi rất nhiều. (Đây mới là tweak đầu tiên của tôi thôi)</string>
+
+	<key>REDDITJAILBREAK_FOOTERTEXT</key>
+	   <string>Tôi muốn gửi lời cảm ơn tới mọi thành viên của /r/jailbreak. Subreddit này là một cộng đồng jailbreak tuyệt vời!</string>
+
+	<key>TITLE_CREDITSPAGE</key>
+	   <string>Credits</string>
+
+	<key>TRANSLATORS</key>
+		<string>Dịch giả</string>
+</dict>
+</plist>

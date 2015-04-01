@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>TWITTERDESIGNER_FOOTERTEXT</key>
+	   <string>Hän teki kauniin kuvakkeen EventOnStartille.</string>
+
+	<key>TWITTERIDEA_FOOTERTEXT</key>
+	   <string>Hän antoi minulle idean yhdistää tweakkini VibrateOnStart'in EventOnStart'iin.</string>
+
+	<key>TWITTERBETATESTER_FOOTERTEXT</key>
+	   <string>Minun yksityinen betatestaaja :)</string>
+
+	<key>TWITTERHELP1_FOOTERTEXT</key>
+	   <string>Hän kertoi minulle kuinka asettaa EventOnStart'in toimivaksi 64-bittisille laitteille.</string>
+
+	<key>TWITTERHELP2_FOOTERTEXT</key>
+	   <string>Hän kysyi minulta voiko hän lähettää minulle helpottavaa koodia tweakilleni.</string>
+
+	<key>REDDITJAILBREAKDEVELOPERS_FOOTERTEXT</key>
+	   <string>Mahtavat kehittäjät tältä subreddit'iltä auttoivat minua tonneittain tehdäkseni EventOnStartin. (Tämä on minun ensimmäinen)</string>
+
+	<key>REDDITJAILBREAK_FOOTERTEXT</key>
+	   <string>Haluan sanoa ISON kiitoksen jokaiselle käyttäjälle /r/jailbreak 'issa. Tämä subreddit on erittäin mahtava yhteisö!</string>
+
+	<key>TITLE_CREDITSPAGE</key>
+	   <string>Kiitokset</string>
+
+	<key>TRANSLATORS</key>
+		<string>Kääntäjät</string>
+</dict>
+</plist>

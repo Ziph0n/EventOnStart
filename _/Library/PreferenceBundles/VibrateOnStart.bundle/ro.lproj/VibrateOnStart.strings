@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ENABLED</key>
+	   <string>Activat</string>
+
+	<key>VIBRATION_FOOTERTEXT</key>
+	   <string>Iti face iPhone-ul sa vibreze la pornire.</string>
+
+	<key>VIBRATION</key>
+	   <string>Vibratii</string>
+
+	<key>FLASH_FOOTERTEXT</key>
+	   <string>Iti face flash-ul camerei iPhone-ului tau sa licare la pornire.</string>
+
+	<key>FLASH</key>
+	   <string>Lanterna</string>
+
+	<key>SOUND_FOOTERTEXT</key>
+	   <string>Sunet la pornire. Sunetul se poate alege din meniul 'Alege Sunet'.</string>
+
+	<key>SOUND</key>
+	   <string>Sunet</string>
+
+	<key>SOUNDLIST</key>
+	   <string>Alege Sunet</string>
+
+	<key>WELCOME_FOOTERTEXT</key>
+	   <string>Mesaj de tip pop-up. Poti scrie mesajul care vrei sa apara in meniul 'Text Mesaj de Pornire'.</string>
+
+	<key>WELCOME</key>
+	   <string>Mesaj de Pornire</string>
+
+	<key>WELCOME_MENU</key>
+	   <string>Text Mesaj de Pornire</string>
+
+	<key>GITHUB</key>
+	   <string>Codul Sursa pe Github</string>
+
+	<key>TWITTER</key>
+	   <string>Urmareste-ma pe Twitter</string>
+
+	<key>EMAIL</key>
+	   <string>Trimite-mi e-mail</string>
+
+	<key>REDDIT</key>
+	   <string>Gaseste-ma pe Reddit (/u/Ziph0n)</string>
+
+	<key>DONATE_FOOTERTEXT</key>
+	   <string>Daca apreciezi munca mea, foloseste acest buton pentru a dona ;)</string>
+
+	<key>DONATE</key>
+	   <string>Doneaza</string>
+
+	<key>CREDITS</key>
+	   <string>Multumiri</string>
+
+	<key>CREATEDBYME</key>
+	   <string>Creat de Ziph0n</string>
+
+	<key>DESCRIPTION</key>
+	   <string>Initiaza o actiune la pornire!</string>
+
+	<key>OPTIONS</key>
+	   <string>Optiuni</string>
+
+	<key>ABOUT</key>
+	   <string>Despre</string>
+
+	<key>PREVIEW</key>
+	   <string>Previzualizare</string>
+
+	<key>SHARE</key>
+	   <string>Folosesc #EventOnStart, un grozav tweak Cydia creat de Ziph0n. Descarca-l acum!</string>
+	   
+	<key>DISMISS</key>
+	   <string>Ok</string>
+</dict>
+</plist>

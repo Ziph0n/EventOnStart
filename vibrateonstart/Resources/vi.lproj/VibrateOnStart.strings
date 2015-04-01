@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ENABLED</key>
+	   <string>Bật</string>
+
+	<key>VIBRATION_FOOTERTEXT</key>
+	   <string>Làm iPhone rung lên khi khởi động.</string>
+
+	<key>VIBRATION</key>
+	   <string>Rung</string>
+
+	<key>FLASH_FOOTERTEXT</key>
+	   <string>Làm cho đèn camera chớp tắt khi khởi động.</string>
+
+	<key>FLASH</key>
+	   <string>Đèn Pin</string>
+
+	<key>SOUND_FOOTERTEXT</key>
+	   <string>Tạo âm thanh khi khởi động. Có thể chọn âm thanh trong menu 'Danh sách âm thanh'.</string>
+
+	<key>SOUND</key>
+	   <string>Âm Thanh</string>
+
+	<key>SOUNDLIST</key>
+	   <string>Danh Sách Âm Thanh</string>
+
+	<key>WELCOME_FOOTERTEXT</key>
+	   <string>Hiện cửa số thông báo. Có thể nhập đoạn thông báo tùy chọn trong menu 'Văn bản chào mừng'.</string>
+
+	<key>WELCOME</key>
+	   <string>Tin Nhắn Chào Mừng</string>
+
+	<key>WELCOME_MENU</key>
+	   <string>Văn Bản Chào Mừng</string>
+
+	<key>GITHUB</key>
+	   <string>Xem Mã Nguồn Trên GitHub</string>
+
+	<key>TWITTER</key>
+	   <string>Theo Dõi Tôi Trên Twitter</string>
+
+	<key>EMAIL</key>
+	   <string>Email Hỗ Trợ</string>
+
+	<key>REDDIT</key>
+	   <string>Tìm Tôi Trên Reddit (/u/Ziph0n)</string>
+
+	<key>DONATE_FOOTERTEXT</key>
+	   <string>Nếu bạn thích sản phẩm của tôi, hãy nhấn nút này để quyên góp cho tôi ;)</string>
+
+	<key>DONATE</key>
+	   <string>Quyên Góp</string>
+
+	<key>CREDITS</key>
+	   <string>Credits</string>
+
+	<key>CREATEDBYME</key>
+	   <string>Được tạo bởi Ziph0n</string>
+
+	<key>DESCRIPTION</key>
+	   <string>Hãy khởi đầu một sự kiện khi khởi động!</string>
+
+	<key>OPTIONS</key>
+	   <string>Tùy Chọn</string>
+
+	<key>ABOUT</key>
+	   <string>About</string>
+
+	<key>PREVIEW</key>
+	   <string>Xem Thử</string>
+
+	<key>SHARE</key>
+	   <string>Tôi đang dùng #EventOnStart, một tweak tuyệt vời trên Cydia của Ziph0n. Hãy tải về ngay!</string>
+	   
+	<key>DISMISS</key>
+	   <string>Tắt</string>
+</dict>
+</plist>

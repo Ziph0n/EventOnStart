@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>General</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.ziph0n.vibrateonstart</string>
+			<key>key</key>
+			<string>TweakEnabler</string>
+			<key>label</key>
+			<string>Enabled</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>About</string>
+		</dict>
+	<dict>
+		<key>action</key>
+		<string>sourceOnGithub</string>
+		<key>cell</key>
+		<string>PSButtonCell</string>
+		<key>icon</key>
+		<string>github.png</string>
+		<key>label</key>
+		<string>Source on Github</string>
+	</dict>
+		<dict>
+			<key>action</key>
+			<string>twitter</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>icon</key>
+			<string>twitter.png</string>
+			<key>label</key>
+			<string>Follow me on Twitter</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>donation</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>icon</key>
+			<string>paypal.png</string>
+			<key>label</key>
+			<string>♥ Donate</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerAlignment</key>
+			<integer>1</integer>
+			<key>footerText</key>
+			<string>© 2015 Ziph0n (@Ziph0n)</string>
+		</dict>
+	<dict>
+		 	<key>cell</key>
+		<string>PSGroupCell</string>
+		<key>label</key>
+		<string>Contact the developer</string>
+	</dict>
+	<dict>
+		<key>action</key>
+		<string>sendSupportEmail</string>
+		<key>cell</key>
+		<string>PSButtonCell</string>
+		<key>label</key>
+		<string>Email Support</string>
+	</dict>
+		<dict>
+		<key>cell</key>
+		<string>PSGroupCell</string>
+		<key>label</key>
+		<string>Contact the developer</string>
+	</dict>
+	<dict>
+		<key>action</key>
+		<string>sendSupportEmail</string>
+		<key>cell</key>
+		<string>PSButtonCell</string>
+		<key>label</key>
+		<string>Email Support</string>
+	</dict>
+
+
+	</array>
+		<key>title</key>
+		<string>VibrateOnStart</string>
+</dict>
+</plist>

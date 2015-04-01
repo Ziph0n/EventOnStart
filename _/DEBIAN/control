@@ -1,0 +1,10 @@
+Package: com.ziph0n.vibrateonstart
+Name: EventOnStart
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: An awesome MobileSubstrate tweak!
+Maintainer: Ziph0n
+Author: Ziph0n
+Section: Tweaks
+Version: 0.0.1-225
+Installed-Size: 14692

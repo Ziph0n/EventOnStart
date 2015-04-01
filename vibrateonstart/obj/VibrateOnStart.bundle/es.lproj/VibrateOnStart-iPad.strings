@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ENABLED</key>
+	   <string>Activado</string>
+
+	<key>VIBRATION_FOOTERTEXT</key>
+	   <string>Hace vibrar tu iPhone al inicio.</string>
+
+	<key>VIBRATION</key>
+	   <string>Vibración</string>
+
+	<key>FLASH_FOOTERTEXT</key>
+	   <string>Hace que el flash de la camara trasera del iPhone parpadee al inicio.</string>
+
+	<key>FLASH</key>
+	   <string>Flash LED</string>
+
+	<key>SOUND_FOOTERTEXT</key>
+	   <string>Reproduce un sonido al inicio. Puedes elegirlo en el menú 'Lista de Sonidos'.</string>
+
+	<key>SOUND</key>
+	   <string>Sonidos</string>
+
+	<key>SOUNDLIST</key>
+	   <string>Lista de sonidos</string>
+
+	<key>WELCOME_FOOTERTEXT</key>
+	   <string>Ésto mostrará un mensaje al inicio. Puedes escribir un mensaje personalizado en el menú 'Texto de Bienvenida'.</string>
+
+	<key>WELCOME</key>
+	   <string>Mensaje de Bienvenida</string>
+
+	<key>WELCOME_MENU</key>
+	   <string>Texto de Bienvenida</string>
+
+	<key>GITHUB</key>
+	   <string>Ver Fuente en GitHub</string>
+
+	<key>TWITTER</key>
+	   <string>Sígueme en Twitter</string>
+
+	<key>EMAIL</key>
+	   <string>Soporte por Correo Electrónico</string>
+
+	<key>REDDIT</key>
+	   <string>Encuéntrame en Reddit (/u/Ziph0n)</string>
+
+	<key>DONATE_FOOTERTEXT</key>
+	   <string>Si aprecias mi trabajo, puedes utilizar este botón para hacerme una donación ;)</string>
+
+	<key>DONATE</key>
+	   <string>Donar</string>
+
+	<key>CREDITS</key>
+	   <string>Créditos</string>
+
+	<key>CREATEDBYME</key>
+	   <string>Creado por Ziph0n</string>
+
+	<key>DESCRIPTION</key>
+	   <string>¡Programa una acción al inicio!</string>
+
+	<key>OPTIONS</key>
+	   <string>Opciones</string>
+
+	<key>ABOUT</key>
+	   <string>Acerca de</string>
+
+	<key>PREVIEW</key>
+	   <string>Vista Previa</string>
+
+	<key>SHARE</key>
+	   <string>Estoy usando #EventOnStart, un tweak increble de Cydia, hecho por Ziph0n. Descárgalo ya!</string>
+	   
+	<key>DISMISS</key>
+	   <string>Descartar</string>
+</dict>
+</plist>

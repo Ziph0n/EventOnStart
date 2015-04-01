@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>TWITTERDESIGNER_FOOTERTEXT</key>
+    <string>वह सुंदर EventOnStart आइकनों बनाया</string>
+
+	<key>TWITTERIDEA_FOOTERTEXT</key>
+	   <string>उसने मुझे विचार VibrateOnStart बनाने में EventOnStart लिए दिया</string>
+
+	<key>TWITTERBETATESTER_FOOTERTEXT</key>
+	   <string>मेरी निजी बीटा परीक्षक :)</string>
+
+	<key>TWITTERHELP1_FOOTERTEXT</key>
+	   <string>वह मुझे सिखाया कि कैसे एक 64 बिट संकलन की tweaks</string>
+
+	<key>TWITTERHELP2_FOOTERTEXT</key>
+	   <string>उन्होंने मुझसे पूछा कि अगर वह मुझे मेरी tweak के लिए कुछ उपयोगी कोड भेज सकते हैं</string>
+
+	<key>REDDITJAILBREAKDEVELOPERS_FOOTERTEXT</key>
+	   <string>कुछ लोगों को इस subreddit से मुझे यह करने के लिए एक बहुत मदद की (यह मेरी पहली एक है)</string>
+
+	<key>REDDITJAILBREAK_FOOTERTEXT</key>
+	   <string>सभी को धन्यवाद /आर/भागने पर</string>
+
+	<key>TITLE_CREDITSPAGE</key>
+	   <string>क्रेडिट्स</string>
+
+	<key>TRANSLATORS</key>
+		<string>अनुवादकों</string>
+</dict>
+</plist>
