@@ -168,25 +168,16 @@ NSURL *ubuntuurl = [NSURL fileURLWithPath:[NSString stringWithFormat:UBUNTU]];
 
 + (void) welcome 
 {
-  if(UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad) {
-    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"" 
-    message:[NSString stringWithFormat:@"%@", welcomeMessage]
-    delegate:nil
-    cancelButtonTitle:Dismiss_iPad
-    otherButtonTitles:nil];
-      [alert show];
-      [alert release];
-  }
+  NSString *dismissString = UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad ? Dismiss_iPad : Dismiss;
 
-  else {
     UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"" 
-    message:[NSString stringWithFormat:@"%@", welcomeMessage]
+    message:welcomeMessage
     delegate:nil
-    cancelButtonTitle:Dismiss
+    cancelButtonTitle:dismissString
     otherButtonTitles:nil];
       [alert show];
       [alert release];
-  }
+
 }
 
 @end
@@ -198,134 +189,25 @@ NSURL *ubuntuurl = [NSURL fileURLWithPath:[NSString stringWithFormat:UBUNTU]];
 
 if (enabled) {
 
-  
-  if (vibration && !sound && !welcome && !flashlight) {
-
-    %orig;
+if (vibration) {
     [Event vibration];
-  }
+}
 
-
-  if (vibration && sound && !welcome && !flashlight) {
-
-    %orig;
-    [Event vibration];
+if (sound) {
     [Event sound];
-	}
+}
 
-
-  if (!vibration && sound && !welcome && !flashlight) {
-
-    %orig;
-    [Event sound];
-	}
-
-
-  if (!vibration && !sound && welcome && !flashlight) {
-
-    %orig;
+if (welcome) {
     [Event welcome];
-  }
+}
 
-
-  if (vibration && !sound && welcome && !flashlight) {
-
-    %orig;
-    [Event vibration];
-    [Event welcome];
-  }
-
-
-  if (!vibration && sound && welcome && !flashlight) {
-
-    %orig;
-    [Event sound];
-    [Event welcome];
-	}
-
-
-  if (vibration && sound && welcome && flashlight) {
-
-    %orig;
-    [Event vibration];
-    [Event sound];
-    [Event welcome];
+if (flashlight) {
     [Event flashlight];
-  }
-
-
-  if (!vibration && !sound && !welcome && !flashlight) {
-
-    %orig;
-  }
-
-
-  if (vibration && !sound && !welcome && flashlight) {
-
-    %orig;
-    [Event vibration];
-    [Event flashlight];
-
-  }
-
-
-  if (vibration && sound && !welcome && flashlight) {
-
-    %orig;
-    [Event vibration];
-    [Event sound];
-    [Event flashlight];
-  }
-
-
-  if (!vibration && sound && welcome && flashlight) {
-
-    %orig;
-    [Event sound];
-    [Event welcome];
-    [Event flashlight];
-  }
-
-
-  if (vibration && !sound && welcome && flashlight) {
-
-    %orig;
-    [Event vibration];
-    [Event welcome];
-    [Event flashlight];
-  }
-
-
-  if (!vibration && sound && !welcome && flashlight) {
-
-    %orig;
-    [Event sound];
-    [Event flashlight];
-  }
-
-
-  if (!vibration && !sound && welcome && flashlight) {
-
-    %orig;
-    [Event welcome];
-    [Event flashlight];
-  }
-
-
-  if (vibration && sound && welcome && !flashlight) {
-
-    %orig;
-    [Event vibration];
-    [Event sound];
-    [Event welcome];
-  }
+}
 
 }
 
-else if (!enabled) {
-
-  %orig;
-}
+%orig;
 
 }
 
