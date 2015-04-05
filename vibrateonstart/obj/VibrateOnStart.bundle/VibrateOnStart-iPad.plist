@@ -221,22 +221,6 @@
 		<dict>
 			<key>cell</key>
 			<string>PSGroupCell</string>
-			<key>footerText</key>
-			<string>DONATE_FOOTERTEXT</string>
-		</dict>
-		<dict>
-			<key>action</key>
-			<string>donation</string>
-			<key>cell</key>
-			<string>PSButtonCell</string>
-			<key>icon</key>
-			<string>paypal.png</string>
-			<key>label</key>
-			<string>DONATE</string>
-		</dict>
-		<dict>
-			<key>cell</key>
-			<string>PSGroupCell</string>
 		</dict>
 		<dict>
 				<key>cell</key>
