@@ -14,24 +14,84 @@ static BOOL vibration;
 static BOOL flashlight;
 static BOOL sound;
 static BOOL welcome;
+static NSURL *soundURL;
 
-@interface EOSEvent : NSObject {
-  NSURL *soundURL;
+static void vibrate() {
+  AudioServicesPlaySystemSound(kSystemSoundID_Vibrate);
 }
 
-- (void)vibration;
-- (void)flashlight;
-- (void)sound;
-- (void)welcome;
+static void turnOnFlashlight() {
+  Class captureDeviceClass = NSClassFromString(@"AVCaptureDevice");
+  if (captureDeviceClass != nil) 
+  {
+    AVCaptureDevice *device = [AVCaptureDevice defaultDeviceWithMediaType:AVMediaTypeVideo];
+    if ([device hasTorch] && [device hasFlash])
+    {
+      [device lockForConfiguration:nil];
 
-@end
+      [device setTorchMode:AVCaptureTorchModeOn];
+      [device setFlashMode:AVCaptureFlashModeOn];
 
-static EOSEvent *event;
+      [NSThread sleepForTimeInterval:0.7];
+      
+      [device setTorchMode:AVCaptureTorchModeOff];
+      [device setFlashMode:AVCaptureFlashModeOff];
 
-@implementation EOSEvent
+      [device unlockForConfiguration];
+    }
+  }
+}
 
--(instancetype)init {
-  if (self=[super init]) {
+static void playSound() {
+  AVAudioPlayer *audioPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:soundURL error:nil];
+  audioPlayer.numberOfLoops = 0;
+  audioPlayer.volume = 1.0;
+  [audioPlayer play];
+}
+static void showWelcome() {
+  NSString *dismissString = UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad ? Dismiss_iPad : Dismiss;
+
+  UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"" 
+  message:welcomeMessage
+  delegate:nil
+  cancelButtonTitle:dismissString
+  otherButtonTitles:nil];
+  [alert show];
+  [alert release];
+}
+
+
+%hook SpringBoard
+
+- (void)applicationDidFinishLaunching:(id)application {
+  %orig;
+
+  if (!enabled)
+    return;
+
+  if (vibration) {
+    vibrate();
+  }
+
+  if (sound) {
+    playSound();
+  }
+
+  if (welcome) {
+    showWelcome();
+  }
+
+  if (flashlight) {
+    turnOnFlashlight();
+  }
+
+}
+
+%end
+
+//this code is run before anything else
+%ctor {
+  @autoreleasepool {
     NSArray *sounds = @[
       @"Apex.caf",
       @"Beacon.caf",
@@ -87,94 +147,4 @@ static EOSEvent *event;
     NSInteger index = [[prefs objectForKey:@"SoundList"] intValue];
     soundURL = [NSURL fileURLWithPath:[@"/Library/EventOnStart" stringByAppendingPathComponent:sounds[index]]];
   }
-  return self;
-}
-
-- (void) vibration 
-{
-  AudioServicesPlaySystemSound(kSystemSoundID_Vibrate);
-}
-
-- (void) flashlight 
-{
-  Class captureDeviceClass = NSClassFromString(@"AVCaptureDevice");
-  if (captureDeviceClass != nil) 
-  {
-    AVCaptureDevice *device = [AVCaptureDevice defaultDeviceWithMediaType:AVMediaTypeVideo];
-    if ([device hasTorch] && [device hasFlash])
-    {
-      [device lockForConfiguration:nil];
-
-		  [device setTorchMode:AVCaptureTorchModeOn];
-		  [device setFlashMode:AVCaptureFlashModeOn];
-
-      [NSThread sleepForTimeInterval:0.7];
-	    
-		  [device setTorchMode:AVCaptureTorchModeOff];
-		  [device setFlashMode:AVCaptureFlashModeOff];
-
-	    [device unlockForConfiguration];
-    }
-  }
-}
-
-
-- (void) sound 
-{
-    AVAudioPlayer *audioPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:soundURL error:nil];
-    audioPlayer.numberOfLoops = 0;
-    audioPlayer.volume = 1.0;
-    [audioPlayer play];
-
-  
-}
-
-- (void) welcome 
-{
-  NSString *dismissString = UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad ? Dismiss_iPad : Dismiss;
-
-    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"" 
-    message:welcomeMessage
-    delegate:nil
-    cancelButtonTitle:dismissString
-    otherButtonTitles:nil];
-      [alert show];
-      [alert release];
-
-}
-
-@end
-
-
-%hook SpringBoard
-
-- (void)applicationDidFinishLaunching:(id)application {
-  %orig;
-
-  if (!enabled)
-    return;
-
-  if (vibration) {
-    [event vibration];
-  }
-
-  if (sound) {
-    [event sound];
-  }
-
-  if (welcome) {
-    [event welcome];
-  }
-
-  if (flashlight) {
-    [event flashlight];
-  }
-
-}
-
-%end
-
-//this code is run before anything else
-%ctor {
-  event = [[EOSEvent alloc] init];
 }
